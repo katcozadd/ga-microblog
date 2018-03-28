@@ -10,9 +10,19 @@ h1 {
 	text-transform: uppercase;
 }
 
-.pageTop {
+li {
+	height: 30px;
+	list-style-type: none;
 	background-color: white;
-	width: 800px;
+	padding: 20px 10px;
+	border: 2px solid black;
+	margin: 10px;
+	text-align: center;
+
+}
+
+.pageTop {
+
 	text-align: center;
 }
 

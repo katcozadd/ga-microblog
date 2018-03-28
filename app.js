@@ -5,7 +5,13 @@ form.addEventListener('submit', function(event) {
 	event.preventDefault();
 	const inputValue = document.getElementById('textBox').value;
 	const myList = document.getElementById('myList')
-	myList.innerHTML += inputValue;
+	let textNode = document.createTextNode(inputValue);
+	myList.innerHTML + inputValue;
+	let node = document.createElement('li');
+	
+	node.appendChild(textNode);
+	document.getElementById("myList").appendChild(node); 
 console.log(inputValue);
 });
+
 
