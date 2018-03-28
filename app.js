@@ -8,7 +8,6 @@ form.addEventListener('submit', function(event) {
 	let textNode = document.createTextNode(inputValue);
 	myList.innerHTML + inputValue;
 	let node = document.createElement('li');
-	
 	node.appendChild(textNode);
 	document.getElementById("myList").appendChild(node); 
 console.log(inputValue);
