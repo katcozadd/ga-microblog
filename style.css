@@ -1,1 +1,31 @@
+body {
+	text-align: center;
+	background-color: pink;
+}
 
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 100px;
+	font-size: 38px;
+	text-transform: uppercase;
+}
+
+.pageTop {
+	background-color: white;
+	width: 800px;
+	text-align: center;
+}
+
+#textBox {
+	height: 30px;
+	width: 500px;
+}
+
+#submitButton {
+    height: 30px;
+    width: 70px;
+    background: black;
+    color: white;
+    border: none; 
+    font-family: 'Quicksand', sans-serif;
+}
