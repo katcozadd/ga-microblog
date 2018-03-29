@@ -10,6 +10,7 @@ form.addEventListener('submit', function(event) {
 	let node = document.createElement('li');
 	node.appendChild(textNode);
 	document.getElementById("myList").appendChild(node); 
+	document.getElementById('textBox').value = '';
 console.log(inputValue);
 });
 
